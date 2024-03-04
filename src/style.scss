@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--c-white-beige: #ffe4c9;
+	--c-brown: #7a6652;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--c-white-beige);
+	color: var(--c-brown);
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin: 15px 0 25px;
+
+	a {
+		transition: all 0.2s ease;
+		color: var(--c-brown);
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+h3 {
+	margin: 10px 0;
+}

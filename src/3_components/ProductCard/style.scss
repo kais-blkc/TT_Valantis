@@ -1,0 +1,32 @@
+.product-card {
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	background-color: var(--c-brown);
+	color: var(--c-white-beige);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 10px;
+
+	@media (max-width: 767px) {
+		padding: 15px;
+		font-size: 14px;
+	}
+
+	.id {
+		opacity: 0.3;
+		font-size: 12px;
+	}
+
+	b {
+		background: var(--c-white-beige);
+		display: inline-block;
+		color: var(--c-brown);
+		padding: 0px 10px;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		opacity: 0.8;
+	}
+}

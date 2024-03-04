@@ -1,0 +1,27 @@
+.filter-product-form {
+	form {
+		width: 100%;
+		padding: 25px 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 15px;
+
+		& > * {
+			width: calc(20% - 10px);
+		}
+	}
+
+	input {
+		padding: 5px 10px;
+		border: 2px solid transparent;
+		border-radius: 10px;
+		outline: none;
+
+		&:active,
+		&:focus {
+			border-color: var(--c-brown);
+		}
+	}
+}
