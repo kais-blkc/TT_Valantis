@@ -4,19 +4,19 @@ import { createBrowserRouter } from 'react-router-dom';
 
 export const router = createBrowserRouter([
 	{
-		path: '/',
+		path: '/TT_Valantis/',
 		element: <HomePage />,
 	},
 	{
-		path: '/:page',
+		path: '/TT_Valantis/:page',
 		element: <HomePage />,
 	},
 	{
-		path: '/filter/',
+		path: '/TT_Valantis/filter/',
 		element: <FilterPage />,
 	},
 	{
-		path: '/filter/:page',
+		path: '/TT_Valantis/filter/:page',
 		element: <FilterPage />,
 	},
 ]);
